@@ -19,7 +19,7 @@ defmodule Dagger.Compose.MixProject do
 
   defp deps do
     [
-      {:dagger, path: "~/src/github.com/dagger/dagger/sdk/elixir"},
+      {:dagger, github: "dagger/dagger", sparse: "sdk/elixir"},
       {:yaml_elixir, "~> 2.9"}
     ]
   end
